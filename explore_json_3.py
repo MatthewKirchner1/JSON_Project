@@ -74,7 +74,6 @@ data = [
     }
 ]
 
-data = [Scattergeo(lon=lons, lat=lats)]
 
 mylayout = {}
 
