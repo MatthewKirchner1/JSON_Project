@@ -31,7 +31,7 @@ print(mags[:10])
 print(lons[:10])
 print(lats[:10])
 
-from plotly.graph_objs import Scattergeo, Layout
+from plotly.graph_objs import scattergeo, Layout
 from plotly import offline
 
 data = [Scattergeo(lon=lons, lat=lats)]
